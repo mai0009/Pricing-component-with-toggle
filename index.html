@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | [Pricing Component with Toggle Master]</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body class="text-center">
+  <div class="container">
+    <h1 class="mt-5 pt-5">Our Pricing</h1>
+    <div class="switch-container d-flex justify-content-center align-items-center mt-5 mb-5">
+      <h2 class="fs-5">Annually</h2>
+      <label class="switch">
+        <input type="checkbox">
+        <span class="slider round" id="switch"></span>
+      </label>
+      <h2 class="fs-5">Monthly</h2>
+    </div>
+    <div class="row mb-5 mt-5 d-flex align-items-center">
+      <!-- card 1 -->
+      <div class="col-lg-4 first-card pt-3 pb-3 mt-4 mb-4">
+        <h4 class="mt-4">Basic</h4>
+        <span class="hidden monthly pt-3 pb-3">&dollar;19.99</span>
+        <span class=" pt-3 yearly pb-3"> &dollar;199.99</span>
+        <p>500 GB Storage</p>
+        <p>2 Users Allowed</p>
+        <p>Send up to 3 GB</p>
+        <button class="text-uppercase p-2 w-75 btn btn-primary main-btn mb-4">Learn More</button>
+      </div>
+      <!-- card 2 -->
+      <div class="col-lg-4 middle pt-4 pb-4 mt-4 mb-4">
+        <h4 class="mt-5"> Professional</h4>
+        <span class="hidden monthly pt-3 pb-3">&dollar;24.99</span>
+        <span class=" pt-3 yearly pb-3">&dollar;249.99</span>
+        <p>1 TB Storage</p>
+        <p>5 Users Allowed</p>
+        <p>Send up to 10 GB</p>
+        <button class="text-uppercase p-2 w-75 btn btn-primary main-btn mb-5">Learn More</button>
+      </div>
+      <!-- card 3 -->
+      <div class="col-lg-4 last-card pt-3 pb-3 mt-4 mb-4">
+        <h4 class="mt-4">Master</h4>
+        <span class="hidden monthly pt-3 pb-3">&dollar;39.99</span>
+        <span class=" pt-3 yearly pb-3">&dollar;399.99</span>
+        <p>2 TB Storage</p>
+        <p>10 Users Allowed</p>
+        <p>Send up to 20 GB</p>
+        <button class="text-uppercase p-2 w-75 btn btn-primary main-btn mb-4">Learn More</button>
+      </div>
+    </div>
+  </div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Mai Mahmoud</a>.
+  </div>
+
+  <script src="js/bootstrap.bundle.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
